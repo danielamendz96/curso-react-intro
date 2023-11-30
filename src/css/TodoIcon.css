@@ -1,0 +1,47 @@
+.Icon{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: hwb(95 65% 19%);
+}
+
+.Icon-check{
+    position: absolute;
+    left: 10px;
+}
+
+.Icon-check--active {
+    color:#377108;
+}
+
+.Icon-delete {
+    
+   top: -24;
+   position: absolute;
+    right: 0;
+    margin-left: 50px;
+}
+
+.Icon-container-delete:hover {
+    color: #BA0F07;
+}
+
+.Icon-svg{
+    width: 24px;
+    height: 24px;
+
+}
+
+.Icon-container-check:hover .Icon-svg {
+   fill: green;
+}
+
+.Icon-container-delete:hover .Icon-svg {
+    fill: red;
+ }
